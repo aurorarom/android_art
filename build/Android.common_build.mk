@@ -204,7 +204,7 @@ ifeq ($(HOST_OS),linux)
   ifeq ($(TARGET_ARCH),x86)
     art_target_non_debug_cflags += -Wframe-larger-than=3000
   else
-    art_target_non_debug_cflags += -Wframe-larger-than=1728
+    art_target_non_debug_cflags += -Wframe-larger-than=1800
   endif
 endif
 
